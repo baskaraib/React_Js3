@@ -1,0 +1,25 @@
+.list-product{
+    background-color: antiquewhite;
+    width: 80vw;
+    height: 20vw;
+}
+
+.list-product ul{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 155px;
+    padding-top: 45px;
+    font-size: large;
+}
+
+.list-product ul li{
+    margin: 30px 80px;
+}
+
+.back-home{
+    margin-left: 36vw;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border-style: solid;
+}

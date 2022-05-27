@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+}
+
+.navbar h1{
+    margin-left: 30px;
+    color: green;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: rgba(245, 245, 245, 0.9);
+}
+
+.active{
+    font-weight: bold;
+}
+
+.link-nav{
+    margin: 20px;
+}
+
+.link-nav li{
+    padding: 0 30px;
+}
+
+.main-data{
+    width: 100vw;
+    height: 58vw;
+    color: green;
+    text-align: center;
+}
+
+.main-data h1{
+    padding-top: 21vw;
+}
+
+.main-data button{
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: rgb(245, 245, 245);
+}
+
+.main-data button a{
+    text-decoration: none;
+    color: green;
+}
+
+/* footer */
+
+footer{
+    background: green;
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    color: white;
+}
+
+.foot-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.foot-content p{
+    margin: 10px auto;
+}
+
+.foot-content .social{
+    display: flex;
+}
+
+.foot-content .social li{
+    margin: 10px 10px;
+    list-style: none;
+}
+
+.foot-content .social li a{
+    color: white;
+    text-decoration: underline;
+}
+
+.foot-end{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
